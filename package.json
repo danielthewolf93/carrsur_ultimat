@@ -1,0 +1,42 @@
+{
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "jsxSingleQuote": true,
+    "bracketSpacing": false,
+    "jsxBracketSameLine": true,
+    "printWidth": 100
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "cron": "1.8.2",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "ftp": "0.3.10",
+    "log4js": "6.3.0",
+    "moment": "^2.29.1",
+    "mssql": "6.3.1",
+    "nconf": "0.11.0",
+    "odbc": "^2.3.6",
+    "ssl-root-cas": "^1.3.1",
+    "system-sleep": "^1.3.7",
+    "url-exist-sync": "^2.0.0",
+    "xhr2": "^0.2.1"
+  },
+  "scripts": {
+    "start": "node ./components/server.js"
+  },
+  "name": "avra-carrsur-api",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://leomajadoavradev@bitbucket.org/cdmarucci/avra-carrsur-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/cdmarucci/avra-carrsur-api#readme"
+}
